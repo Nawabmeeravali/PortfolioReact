@@ -3,7 +3,7 @@ import Vmarine from "../img/hand.jpg";
 import aguaDeLuz from "../img/pnemonia.jpg";
 import todo from "../img/sentiment.jpg";
 import PropTypes from "prop-types";
-//import Button from '@material-ui/core/Button';
+import Button from '@material-ui/core/Button';
 
 export default class Projects extends React.Component {
 
@@ -27,10 +27,11 @@ export default class Projects extends React.Component {
 									<div className="text">
 										<h2>Hand guesture recognition</h2>
 									</div>
-									<div>
-										<button
+									<div className="materialbutton">
+										<Button
+										size="large" variant="outlined"
+										color="primary"
 											id="vmarine-button"
-											className="project-button"
 											onClick={() => {
 												var modalBG = document.getElementById(
 													"gallery-card"
@@ -43,7 +44,7 @@ export default class Projects extends React.Component {
 													"block";
 											}}>
 											Learn More
-										</button>
+										</Button>
 									</div>
 								</div>
 							</div>
@@ -56,10 +57,12 @@ export default class Projects extends React.Component {
 									<div className="text">
 										<h2>Pnemonia detection using CNN</h2>
 									</div>
-									<div>
-										<button
-											id="agua-button"
-											className="project-button"
+									<div className="materialbutton">
+										<Button
+										id="agua-button"
+										size="large" variant="outlined"
+										color="primary"
+											
 											onClick={() => {
 												var modalBG = document.getElementById(
 													"gallery-card"
@@ -71,7 +74,7 @@ export default class Projects extends React.Component {
 												aguaModal.style.display ="block";
 											}}>
 											Learn More
-										</button>
+										</Button>
 									</div>
 								</div>
 							</div>
@@ -84,10 +87,11 @@ export default class Projects extends React.Component {
 									<div className="text">
 										<h2>Sentiment analysis</h2>
 									</div>
-									<div>
-										<button
+									<div className="materialbutton">
+										<Button
+										size="large" variant="outlined"
+										color="primary"
 											id="todo-button"
-											className="project-button"
 											onClick={() => {
 												var modalBG = document.getElementById(
 													"gallery-card"
@@ -100,7 +104,7 @@ export default class Projects extends React.Component {
 													"block";
 											}}>
 											Learn More
-										</button>
+										</Button>
 									</div>
 								</div>
 							</div>

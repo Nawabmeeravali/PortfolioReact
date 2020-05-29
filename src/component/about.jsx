@@ -50,7 +50,9 @@ export default class About extends React.Component {
 				
 
 				<div className="row" style={{ marginTop: 7 + "rem" }}>
+					
 					<div className="col-12 col-lg-6 hidden">
+					<div className="image">
 						<img
 							className={"img-fluid " + this.props.fadeIn}
 							src={myImage}
@@ -66,6 +68,7 @@ export default class About extends React.Component {
 							new technologies.I can code in Dart,Python and
 							Javascript and deploy the code in AWS/Heroku. 
 						</p>
+					</div>
 					</div>
 					<div
 						className={

@@ -61,7 +61,7 @@ export default class Contact extends React.Component {
 						<Button size="large" variant="outlined"
 						color="primary"
 								type="submit"
-								className="btn btn-primary mb-2 hidden">
+								>
 								Submit
 							</Button>
 						</div>
