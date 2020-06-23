@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.10.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -15,6 +16,9 @@
     "particles-bg": "^2.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-fade-in": "^1.0.0",
+    "react-loading": "^2.0.3",
+    "react-lottie": "^1.2.3",
     "react-scripts": "3.4.1",
     "react-spring": "^8.0.27",
     "react-typical": "^0.1.3",
