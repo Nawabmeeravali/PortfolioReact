@@ -19,14 +19,14 @@ export default class Background extends React.Component {
 				<div id="stars3" />
 				
 				<div className="top-container flex">
-					<h1>
+					<h2>
 						Hello, I&apos;m 
 					 <Typical
                         steps={['Meeravali Shaik',1000,'Student', 1000, 'Web/Flutter developer', 1000, 'Programmer',1000]}
                         loop={Infinity} 
                      />
 
-					</h1>
+					</h2>
 					{/* offset can be cahnged in node modules wowjs default file */}
 					<button
 						className={"work-button " + this.props.bounceIn}

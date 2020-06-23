@@ -1,11 +1,9 @@
 import React from "react";
-import layers from "../img/laptop.png";
-import cogwheel from "../img/rocket-cir.png";
-import pen from "../img/brush.png";
-import browser from "../img/light.png";
 import myImage from "../img/me.jpg";
 import PropTypes from "prop-types";
 import Progress from "./progressBar";
+import { Computer, Brush,OfflineBolt  } from '@material-ui/icons';
+import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 
 
 export default class About extends React.Component {
@@ -17,36 +15,28 @@ export default class About extends React.Component {
 					<h1 id="about" className={this.props.bounceLeft}>
 					About
 				</h1>
-									<div className="row mt-5">
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
-						}>
-						<img src={layers} alt=""/>
-						<h4>Responsive</h4>
-					</div>
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
-						}>
-						<img src={pen} alt=""/>
-						<h4>Design</h4>
-					</div>
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
-						}>
-						<img src={cogwheel} alt=""/>
-						<h4>Performance</h4>
-					</div>
-					<div
-						className={
-							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
-						}>
-						<img src={browser} alt=""/>
-						<h4>Agile</h4>
-					</div>
+				<div className="row mt-5">
+				<div className={ "col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft}>
+				<div className="Iconn">
+				<Computer style={{ color: "white", fontSize: 100 }}/>
 				</div>
+				</div>
+				<div className={ "col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft}>
+				<div className="Iconn">
+				<Brush style={{ color: "white", fontSize: 100 }}/>
+				</div>
+				</div>
+				<div className={ "col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft}>
+				<div className="Iconn">
+				<OfflineBolt style={{ color: "white", fontSize: 100 }}/>
+				</div>
+				</div>
+				<div className={ "col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft}>
+				<div className="Iconn">
+				<EmojiObjectsIcon style={{ color: "white", fontSize: 100 }}/>
+				</div>
+				</div>
+				</div>					
 				
 
 				<div className="row" style={{ marginTop: 7 + "rem" }}>
